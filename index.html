@@ -20,33 +20,63 @@
     </header>
 
     <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
         <div class="form-box login">
-            <h2>login</h2>
+            <h2>Login</h2>
             <form action="" method="post">
                 <div class="input-box">
                     <span class="icon"><ion-icon name="mail"></ion-icon></span>
                     <input type="email" id="email" name="email" required>
-                    <label for="email">email</label>
+                    <label for="email">Email</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
                     <input type="password" id="password" name="password" required>
-                    <label for="password">password</label>
+                    <label for="password">Password</label>
                 </div>
                 <div class="remember-forgot">
-                    <label for="checkbox"><input type="checkbox" id="checkbox" name="checkbox">remember me</label>
-                    <a href="#">forgot password?</a>
+                    <label for="checkbox"><input type="checkbox" id="checkbox" name="checkbox">Remember me</label>
+                    <a href="#">Forgot password?</a>
                 </div>
-                <button type="submit" class="btn">login</button>
+                <button type="submit" class="btn">Login</button>
                 <div class="register-login">
-                    <p>don't have am account?<a href="#" class="register-link"></a></p>
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registion</h2>
+            <form action="" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" id="userName" name="userName" required>
+                    <label for="userName">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for="checkbox"><input type="checkbox" id="checkbox" name="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="register-login">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
                 </div>
             </form>
         </div>
     </div>
     <div class="footer"></div>
 
-    <script src="script.css"></script>
+    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
